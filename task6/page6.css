@@ -1,0 +1,28 @@
+.main-container{
+  position: relative;
+  display: flex;
+  background-color: light-grey;
+width:1180px;
+height: 500px;
+}
+.container-1{
+  position: relative;
+  position: flex;
+  flex:1;
+  border: solid black 2px;
+}
+.container-2{
+  position: relative;
+  position: flex;
+  background-color: #FC4A3C;
+  flex:1;
+}
+.form1{
+  position: absolute;
+  margin: 20px;
+}
+img{
+  position: absolute;
+  
+
+}
