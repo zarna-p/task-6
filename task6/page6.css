@@ -1,28 +1,75 @@
+body{
+  background-color:#F3F1F1;
+}
 .main-container{
   position: relative;
   display: flex;
-  background-color: light-grey;
 width:1180px;
 height: 500px;
+margin:100px 115px;
 }
+
 .container-1{
   position: relative;
   position: flex;
   flex:1;
-  border: solid black 2px;
+  border-radius:100px 0 0 100px;
+    background-color: white;
 }
 .container-2{
+  color: white;
   position: relative;
   position: flex;
   background-color: #FC4A3C;
   flex:1;
+  border-radius: 0 100px 100px 0;
 }
 .form1{
+  font-family:MS PGothic;
   position: absolute;
-  margin: 20px;
+  margin:0 132px;
+
 }
 img{
   position: absolute;
-  
-
+  height: 456px;
+  left:70px;
+  top:5px;
+}
+h1{
+  font-weight: lighter;
+}
+.a1{
+  width:315px;
+  height: 47px;
+  border-radius: 20px;
+  border-style:none;
+  color:#FC4A3C;
+  box-shadow: 3px 2px 36px #B5241B;
+  placeholder:#FC4A3C;
+}
+.b1{
+  width:315px;
+  height: 47px;
+  border-radius: 20px;
+ border-style: solid;
+  background-color: #FC4A3C;
+  border-color:#F7F2F2;
+}
+.signin{
+  font-size: 20px;
+  width:315px;
+  height: 47px;
+  border-radius: 20px;
+  border-style: none;
+  color:white;
+  background-color: #E1352A;
+}
+a{
+  text-decoration: none;
+  color: white;
+  float:right;
+}
+h5{
+text-align: center;
 }
