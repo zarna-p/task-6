@@ -1,13 +1,19 @@
 body{
   background-color:#F3F1F1;
 }
-.main-container{
+.main{
+  display: flex;
+  width:100vw;
+  height: 100vh;
+}
+.containers{
 display: flex;
 width:1125px;
 height: 500px;
 margin:auto;
 box-shadow:2px 2px 36px #B6B3B3;
 border-radius: 96px;
+
 }
 
 .container-1{
